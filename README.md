@@ -53,7 +53,7 @@ Para a construção desse projeto, o dataset é disponibilizado para download no
 - ID : Identificação única de cada elemento
 - Gene : Gene onde a mutação genética está localizada
 - Variation : Aminoácidos modificados pela mutação
-- Target : 1-9 classe em que a mutação genética será classificada
+- Class : 1-9 classe em que a mutação genética será classificada
 - Clinical Evidence: Evidências clinicas escritas por especialistas
 
 

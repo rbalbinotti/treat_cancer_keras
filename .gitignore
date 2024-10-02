@@ -162,7 +162,8 @@ cython_debug/
 #.idea/
 
 # Files
-*backup.ipynb
+*backup.*
+git.txt
 
 # Folders
 help/
