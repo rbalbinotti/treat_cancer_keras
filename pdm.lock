@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:99f9580968e4c614577e28368a981f6ff0ef5dd22320e295c3e3d457c15839b4"
+content_hash = "sha256:b3788b08bb0a0912b6a8af0a31a6aff8db2275ede5a60da114c323b650388af1"
 
 [[metadata.targets]]
 requires_python = "==3.11.*"
@@ -688,7 +688,7 @@ files = [
 
 [[package]]
 name = "keras-nlp"
-version = "0.14.2"
+version = "0.15.1"
 requires_python = ">=3.9"
 summary = "Industry-strength Natural Language Processing extensions for Keras."
 groups = ["default"]
@@ -702,8 +702,8 @@ dependencies = [
     "tensorflow-text; platform_system != \"Darwin\"",
 ]
 files = [
-    {file = "keras_nlp-0.14.2-py3-none-any.whl", hash = "sha256:6a883ce6e56b67189f15898b17206621d3a8708731613063e489589b7fc39769"},
-    {file = "keras_nlp-0.14.2.tar.gz", hash = "sha256:62fab836ee84561a63c43edca91f4f078aaeacc79e7dfa9b1a746d9806d679e0"},
+    {file = "keras_nlp-0.15.1-py3-none-any.whl", hash = "sha256:913627947d0d4f45ea55e30c88c4230ce65105437a2a0ad85551249199c42e82"},
+    {file = "keras_nlp-0.15.1.tar.gz", hash = "sha256:1a59097203ab16245a016c6c475c45c39e6391120ff817b9cf71ab5fc006514d"},
 ]
 
 [[package]]
