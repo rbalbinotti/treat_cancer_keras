@@ -1,11 +1,6 @@
-<div style="text-align: center;">
-  <p>Scegli la tua lingua / Escolha sua lingua:</p>
-  <p>
-    <a href="README_it.md" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Italiano</a>
-    <a href="README_PT-BR.md" style="display: inline-block; padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Português</a>
-  </p>
-</div>
-
+**Scegli la tua lingua / Escolha sua lingua:**
+>* [Italiano](README_it.md)
+>* [Português](README_PT-BR.md)
 
 # Personalized Medicine - Redefining Cancer Treatment.
 **Course - Machine Learning** 
