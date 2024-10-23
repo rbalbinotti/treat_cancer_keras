@@ -59,5 +59,5 @@ Installare le dipendenze utilizzando PDM Python digitando il comando qui sotto n
 - [Keras](https://keras.io/api/)
 
 ### Crediti
-Materiale creato da **Roberto R Balbinotti**.
+Materiale creato da **Roberto R Balbinotti**.  
 Progetto di Conclusione del Corso - Machine Learning della [Data Science Academy](https://www.datascienceacademy.com.br/)

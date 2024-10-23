@@ -3,7 +3,7 @@
 >* [Português](README_PT-BR.md)
 
 # Personalized Medicine - Redefining Cancer Treatment.
-**Course - Machine Learning** 
+**Course - Machine Learning**  
 Project from the Data Scientist Training Program by the Data Science Academy
 
 ## Project Description
@@ -64,5 +64,5 @@ For building this project, the dataset is available for download at the followin
 - [Keras](https://keras.io/api/)
 
 ### Credits
-Material created by **Roberto R Balbinotti**.
+Material created by **Roberto R Balbinotti**.  
 Graduation Project - Machine Learning Course at [Data Science Academy](https://www.datascienceacademy.com.br/)
