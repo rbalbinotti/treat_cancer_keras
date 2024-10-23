@@ -1,85 +1,73 @@
-NOTICE
-**Project in development**
+<div style="text-align: center;">
+  <p>Scegli la tua lingua / Escolha sua lingua:</p>
+  <p>
+    <a href="README_it.md" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Italiano</a>
+    <a href="README_PT-BR.md" style="display: inline-block; padding: 10px 20px; background-color: #28A745; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">Português</a>
+  </p>
+</div>
 
 
-> Medicina Personalizada - Redefinindo o Tratamento de Câncer - *Redefining Cancer Treatment*.  
-> **Curso - Machine Learning**  
-> Projeto da Formação Cientista de Dados da [Data Science Academy](https://www.datascienceacademy.com.br/)
+# Personalized Medicine - Redefining Cancer Treatment.
+**Course - Machine Learning** 
+Project from the Data Scientist Training Program by the Data Science Academy
 
-## Descrição Projeto
+## Project Description
+Much has been said in recent years about how precision medicine and, more specifically, genetic testing will disrupt the treatment of diseases such as cancer. However, this is still happening only partially due to the enormous amount of manual work still required. In this project, we will attempt to bring personalized medicine to its full potential. Once sequenced, a cancerous tumor can have thousands of genetic mutations. The challenge is to distinguish the mutations that contribute to tumor growth from other mutations.
 
-Muito tem sido dito durante os últimos anos sobre como a medicina de precisão e, mais concretamente, como o teste genético, vai provocar disrupção no tratamento de doenças como o câncer.  
+Currently, this interpretation of genetic mutations is being done manually. This is a very time-consuming task, where a clinical pathologist has to manually review and classify each genetic mutation based on evidence from text-based clinical literature. For this project, the [MSKCC](https://en.wikipedia.org/wiki/Memorial_Sloan_Kettering_Cancer_Center) is providing an expert-annotated knowledge base, where world-class researchers and oncologists have manually annotated thousands of mutations.
 
-Mas isso ainda está acontecendo apenas parcialmente devido à enorme quantidade de trabalho manual ainda necessário. Neste projeto, tentaremos levar a medicina personalizada ao seu potencial máximo.  
+> The goal of the project is to develop a **Machine Learning algorithm using Keras and TensorFlow**.
 
-Uma vez sequenciado, um tumor cancerígeno pode ter milhares de mutações genéticas. O desafio é distinguir as mutações que contribuem para o crescimento do tumor das mutações.  
+For building this project, the dataset is available for download at the following link:
+[kaggle.data](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data)
 
-Atualmente, esta interpretação de mutações genéticas está sendo feita manualmente. Esta é uma tarefa muito demorada, onde um patologista clínico tem que revisar manualmente e classificar cada mutação genética com base em evidências da literatura clínica baseada em texto.
+## Data Source
 
-Para este projeto, o [MSKCC](https://en.wikipedia.org/wiki/Memorial_Sloan_Kettering_Cancer_Center) (Memorial Sloan Kettering Cancer Center) está disponibilizando uma base de conhecimento anotada por especialistas, onde pesquisadores e oncologistas de nível mundial anotaram manualmente milhares de mutações.
+- [Kaggle](https://www.kaggle.com)
+- [Data Science Academy](https://www.datascienceacademy.com.br)
 
-   > O objetivo do projeto é desenvolver um algoritmo de Aprendizado de Máquina que, usando essa base de conhecimento como uma linha de base, classifica automaticamente as variações genéticas.
-
-Para a construção desse projeto, o dataset é disponibilizado para download no link: [kaggle.data](https://www.kaggle.com/c/msk-redefining-cancer-treatment/data)
-
-
-
-## Fonte Dados
-
--   [Kaggle](https://www.kaggle.com)
--   [Data Science Academy](https://www.datascienceacademy.com.br)
-
-## Tecnologias Empregadas
+## Technologies Used
 
 - [PDM Python](https://pdm-project.org/)
 - [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Keras](https://keras.io/)
+- [TensorFlow](https://www.tensorflow.org/)
 - [GitHub](https://github.com/)
+- [Colab](https://colab.research.google.com/)
+- [Plotly](https://plotly.com/)
 
-### Instalação
+## Installation
 
-- Baixar o projeto do [github](https://github.com/rbalbinotti/treat_cancer_keras)
-
-- Instalar dependências, utilizando o PDM Python, basta digitar o comando abaixo estando na pasta do projeto.
+- Download the project from [github](https://github.com/rbalbinotti/treat_cancer_keras)
+- Install dependencies using PDM Python by typing the command below in the project folder:
 ```
     pdm sync
 ```
-    Caso necessite os pacotes e versões estão no arquivo pyproject.toml
+    If necessary, the packages and versions are listed in the pyproject.toml file.
 
-# Dicionário de dados
+## Data Dictionary
+- ID: Unique identification of each element
+- Gene: Gene where the genetic mutation is located
+- Variation: Amino acids modified by the mutation
+- Class: 1-9 class in which the genetic mutation will be classified
+- Clinical Evidence: Clinical evidence written by specialists
 
-- ID : Identificação única de cada elemento
-- Gene : Gene onde a mutação genética está localizada
-- Variation : Aminoácidos modificados pela mutação
-- Class : 1-9 classe em que a mutação genética será classificada
-- Clinical Evidence: Evidências clinicas escritas por especialistas
+>| gene  | variation | clinical_evidence | class |
+>|-------|-----------|-------------------|-------|
+>| IDH1  | G123R     | Mutations in the genes for isocitrate dehydrogenase 1 (IDH1) and isocitrate dehydrogenase 2 (IDH2) have been recently identified in glioblastoma. In the present study, we investigated IDH1 and IDH... | 1 |
+>| MYC   | MYC-nick  | Evasion of apoptosis is critical in Myc-induced tumor progression. Here we report that cancer cells evade death under stress by activating calpain-mediated proteolysis of Myc. This generates Myc-n... | 4 |
+>| ERCC2 | R487W     | The increasing application of gene panels for familial cancer susceptibility disorders will probably lead to an increased proposal of susceptibility gene candidates. Using ERCC2 DNA repair gene as... | 1 |
 
-
-# Bibliografia e Créditos
-
-### Material de Apoio
+# Bibliography and Credits
+### Support Material
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Plotly](https://plotly.com/python/)
 - [Python](https://docs.python.org/3/)
 - [Keras](https://keras.io/api/)
 
-### Créditos
-
-Material criado por **Roberto R Balbinotti**.  
-Projeto de Conclusão do Curso - Machine Learning da [Data Science Academy](https://www.datascienceacademy.com.br/)
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Credits
+Material created by **Roberto R Balbinotti**.
+Graduation Project - Machine Learning Course at [Data Science Academy](https://www.datascienceacademy.com.br/)
